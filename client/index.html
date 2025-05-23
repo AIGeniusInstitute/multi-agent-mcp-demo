@@ -1,0 +1,32 @@
+
+<!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Agent MCP Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Multi-Agent MCP Demo</h1>
+    
+    <div class="input-section">
+      <textarea id="task-input" placeholder="Enter your task here..."></textarea>
+      <div class="buttons">
+        <button id="process-btn">Process Task</button>
+        <button id="process-complex-btn">Process Complex Task</button>
+      </div>
+    </div>
+    
+    <div class="output-section">
+      <h2>Result</h2>
+      <div id="loading" class="hidden">Processing...</div>
+      <pre id="result-output"></pre>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
